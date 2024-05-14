@@ -60,7 +60,7 @@ function Navbar({search,setsearch}) {
                 <ul className={hum ? "menu menuopen" : "menu"} >
                     <li><Link to="/Mens">Mens</Link></li>
                     <li><Link to="/Womens">Womens</Link></li>
-                    <li><a href="">Kids</a></li>
+                    {/* <li><a href="">Kids</a></li> */}
                 </ul>
             </div>
 
