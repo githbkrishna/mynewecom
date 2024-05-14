@@ -9,6 +9,9 @@ li{
 a{
     text-decoration: none;
 }
+button{
+    cursor: pointer;
+}
 .nav{
     height: 50px;
     padding: 5px 15px;
@@ -26,6 +29,7 @@ a{
 }
 .logo h1{
     font-size: 30px;
+    cursor: pointer;
 }
 .menu{
     display: flex;
@@ -38,11 +42,10 @@ a{
 }
 .icons i {
     font-size: 23px;
+    cursor: pointer;
 }
 
 .menuitems{
-   
-   
     width: 300px;
     height: 230px;
     /* background-color: #ddd; */

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: black;
+    color: white; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    color: black;
+    background-color: black;
+    background-color: #DDDDDD;
+    padding: 2vw 0;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+footer .foot{
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+  
+footer .foot h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+footer .foot ul li{
+    list-style-type: none;
+    line-height: 25px;
+    display: block;
+}
+
+.foontIcon i{
+    margin-right: 10px;
+}
+
+.foot input{
+    border-radius: 30px;
+    height: 2.5vw;
+}
+
+.foot input::placeholder{
+    padding-left: 10px;
+    font-size: 1.3vw;
+    padding-left: 1.5vw;
+    color: black;
+}
+
+.foot input:focus{
+    outline: none;
+    border: 4px solid rgb(0, 255, 34);
+}
+
+.foot li button{
+    margin-top: 10px;
+    padding: 0.5vw 2vw;
+    font-weight: 600;
+    background-color: yellow;
+    color: white;
+    color: black;
+    border-radius: 40px;
+    font-size: 1.5vw;
+}
+
+footer h2:hover{
+    transform: scale(1.1);
+    transition: all 3s;
+}
+  
+footer .foot li:hover{
+    transform: scale(1.1);
+    transition: all 3s;
+}
+
+/* footer ends  */

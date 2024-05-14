@@ -141,7 +141,7 @@ function Navbar({search,setsearch}) {
                                 <h4>Your  Cart is empty</h4>
                                 <img src="https://m.media-amazon.com/images/G/31/cart/empty/kettle-desaturated._CB424694257_.svg" alt="" />
                                 <div>
-                                    <button>Shop now</button>
+                                    <Link onClick={()=> navigate("/Mens") }><button>Shop now</button></Link>
                                 </div>
                             </div>
                     }

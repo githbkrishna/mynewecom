@@ -8,6 +8,7 @@ import Cardetails from "./Carddetails/Cardetails"
 import { useState } from "react"
 import Womens from "./Womens/Womens"
 import StepperMain from "./Stepper/StepperMain"
+import Footer from "./footer/Footer"
 
 function App() {
 
@@ -28,8 +29,8 @@ function App() {
 
 
         </Routes>
-        
 
+        <Footer/>
   
       </div>
       
